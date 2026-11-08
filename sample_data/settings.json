@@ -1,0 +1,60 @@
+{
+  "organisation": "Fabrikam Logistics",
+  "as_of": "2026-11-08 09:00",
+  "window_days": 90,
+  "cluster_min": 5,
+  "cluster_critical_score": 100,
+  "similarity": 0.5,
+  "min_shared_tokens": 2,
+  "priority_weights": {
+    "Highest": 8,
+    "High": 4,
+    "Medium": 2,
+    "Low": 1,
+    "Lowest": 1
+  },
+  "criticality_weights": {
+    "Critical": 3,
+    "High": 2,
+    "Medium": 1.5,
+    "Low": 1
+  },
+  "default_criticality": "Medium",
+  "stopwords": [
+    "madrid",
+    "zaragoza",
+    "valencia",
+    "hub",
+    "office",
+    "warehouse"
+  ],
+  "rca_working_days": 5,
+  "holidays": [
+    "2026-05-15",
+    "2026-10-12",
+    "2026-12-08",
+    "2026-12-25"
+  ],
+  "stale_days": 30,
+  "investigation_max_days": 60,
+  "known_error_fix_days": 90,
+  "known_error_critical_days": 180,
+  "fix_grace_days": 3,
+  "fix_recurrence_min": 3,
+  "reopen_min": 2,
+  "unknown_rc_max": 0.2,
+  "unknown_categories": [
+    "Unknown",
+    "Other"
+  ],
+  "next_review": "2026-11-12",
+  "next_cab": "2026-11-17",
+  "owners": {
+    "trends": "Problem manager (Elena Vidal)",
+    "major": "Major incident manager (Jorge Prieto)",
+    "stuck": "Problem manager (Elena Vidal)",
+    "known": "Service desk lead (Sara Ibáñez)",
+    "fix": "Change manager (Pablo Ruiz)",
+    "quality": "Problem manager (Elena Vidal)"
+  }
+}

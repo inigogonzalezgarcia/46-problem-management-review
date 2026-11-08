@@ -1,0 +1,24 @@
+CI,Service,Criticality,Owner team
+LAPTOP-FLEET,Laptops,Medium,End user services
+EXO-TENANT,Email,High,Workplace
+ENTRA-ID,Identity,Critical,Workplace
+TEAMS-PHONE,Telephony,High,Workplace
+WMS-APP-01,Warehouse management,Critical,Business applications
+TMS-APP-01,Transport management,Critical,Business applications
+ERP-D365,ERP,High,Business applications
+SCN-FLEET-ZAZ,Handheld scanners,High,End user services
+SCN-FLEET-VLC,Handheld scanners,High,End user services
+WIFI-ZAZ,Warehouse Wi-Fi,High,Network
+WIFI-VLC,Warehouse Wi-Fi,High,Network
+WIFI-MAD,Office Wi-Fi,Medium,Network
+PRT-MAD-01,Printing,Low,End user services
+PRT-VLC-01,Printing,Low,End user services
+PRT-ZAZ-01,Printing,Low,End user services
+FS-MAD-02,File services,High,Infrastructure
+VPN-ASA-01,Remote access,High,Network
+EDI-GW-01,EDI with customers,Critical,Integration
+LABEL-SRV-01,Label printing,High,Business applications
+INTRANET,Intranet,Low,Workplace
+BACKUP-01,Backup,High,Infrastructure
+SW-ZAZ-CORE,LAN,High,Network
+WMS-DB-01,Warehouse management,Critical,Database
